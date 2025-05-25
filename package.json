@@ -1,0 +1,27 @@
+{
+  "name": "backend-tutorial",
+  "version": "1.0.0",
+  "description": "A simple backend tutorial project using Express and Mongoose.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "express",
+    "mongoose",
+    "backend",
+    "tutorial"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
