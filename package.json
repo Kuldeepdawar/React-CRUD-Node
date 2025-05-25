@@ -14,7 +14,7 @@
     "backend",
     "tutorial"
   ],
-  "author": "Your Name",
+  "author": "Kuldeep",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.5.0",

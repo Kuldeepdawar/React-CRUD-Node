@@ -45,9 +45,7 @@ export const deleteProduct = async (req, res) => {
     return res.status(200).json({ success: true, message: "Data deleted" });
   } catch (error) {
     console.error("error deleting", error.message);
-    return res
-      .status(404)
-      .json({ success: false, message: "Data not found for delete" });
+    return res.status(500).json({ success: false, message: "Server error" });
   }
 };
 

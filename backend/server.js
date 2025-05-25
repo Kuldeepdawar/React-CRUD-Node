@@ -15,7 +15,9 @@ app.use("/api/products", productRouter);
 
 // get all products
 
-app.listen(5001, () => {
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
   connectDB();
-  console.log("http://localhost:5000");
+  console.log("http://localhost:" + 5000);
 });
